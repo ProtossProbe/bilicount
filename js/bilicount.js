@@ -41,7 +41,7 @@ window.onload = function() {
 
         sendRequest(targetUrl, "bilicount_init");
         setInterval(function() { sendRequest(targetUrl, "bilicount_update"); },
-            5000);
+            15000);
         window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
     } else
         name.style.display = number.style.display = "none";
