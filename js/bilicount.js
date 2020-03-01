@@ -1,4 +1,4 @@
-var proxyUrl = "http://34.82.0.93:3300/jsonp";
+var proxyUrl = "http://101.37.91.140:3300/jsonp";
 // var proxyUrl = "http://127.0.0.1:3300/jsonp";
 
 function sendRequest(targetUrl, callbackName) {
